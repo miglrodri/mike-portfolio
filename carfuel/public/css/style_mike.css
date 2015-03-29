@@ -1,0 +1,161 @@
+/*
+yellow: fdbb30;
+white: ffffff;
+black: 222020;
+*/
+
+body {
+	background-color: #fdbb30;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.center {
+	text-align: center;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.navbar {
+	min-height: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.brand {
+	font-weight: bold;
+	color: #222020;
+	font-size: 2em;
+}
+
+.brand:hover {
+	color: #222020;
+}
+
+.brand:visited {
+	color: #222020;
+}
+
+.navbar-nav li a.link {
+	color: #222020;
+	font-size: 1.5em;
+	background-color: transparent;
+}
+
+.navbar-nav li a.link:hover {
+	color: #222020;
+	text-decoration: underline;
+}
+
+/* GLOBAL */
+.container {
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+}
+
+.container h1 {
+	font-size: 2em;
+}
+
+.container p {
+	font-size: 1em;
+}
+
+.container .main-image {
+	width: 600px;
+}
+
+.container a {
+	text-decoration: underline;
+	color: #f6f6f6;
+}
+
+footer {
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+	padding-top: 30px;
+	font-size: 1em;
+}
+
+footer p, footer a {
+	color: white;
+}
+
+footer a:hover {
+	color: white;
+}
+
+footer a:visited {
+	color: white;
+}
+
+/* HOMEPAGE */
+.cover .button {
+	border: #f6f6f6 dashed 2px;
+	color: #f6f6f6;
+	font-size: 2em;
+	margin-top: 20px;
+	text-decoration: none;
+}
+
+.cover .button:hover {
+	border: white dashed 2px;
+	color: white;
+}
+
+@media (max-width: 600px) {
+	.container .main-image {
+    	width: 100%;
+  	}
+  	.cover .button {
+  		font-size: 1em;
+  	}
+}
+
+/* SIGNUP / LOGIN PAGE */
+
+.form-container {
+	width: 100%;
+}
+
+.page-form {
+	max-width: 500px;
+	margin: 0 auto;
+	float: none;
+}
+
+.page-form input[type=submit] {
+	width: 100%;
+	border: #f6f6f6 dashed 2px;
+	color: #f6f6f6;
+	font-size: 1.5em;
+	background-color: transparent;
+	outline: 0 !important;
+}
+
+.page-form input[type=submit]:hover {
+	border: white dashed 2px;
+	color: white;
+}
+
+@media (max-width: 600px) {
+  	.page-form input[type=submit] {
+  		font-size: 1em;
+  	}
+}
+
+/* DASHBOARD */
+
+table, th, td {
+    border: 1px solid gray !important;
+}
+
+hr {
+	border-color: gray;
+}
+

@@ -1,0 +1,253 @@
+/*
+fundo-header: 273135;
+text: 89949b;
+text2: e76049;
+fundo: e9f0f5;
+fundo-box: 222020;
+*/
+
+body {
+	background-color: #e9f0f5;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.center {
+	text-align: center;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.navbar {
+	background-color: #273135;
+	min-height: 0px;
+	font-family: 'Roboto', sans-serif;
+	border-radius: 0 !important;
+}
+
+.brand {
+	font-weight: bold;
+	color: white;
+	font-size: 2em;
+}
+
+.brand:hover {
+	color: white;
+}
+
+.brand:visited {
+	color: white;
+}
+
+.navbar-nav li a.link {
+	color: #e76049;
+	font-size: 1.5em;
+	background-color: transparent;
+}
+
+.navbar-nav li a.link:hover {
+	color: #e76049;
+	text-decoration: underline;
+}
+
+.header-text {
+	padding-left: 15px;
+	color: white;
+	font-size: 1.5em;
+}
+
+.logout-button {
+	padding-left: 15px;
+	color: #89949b;
+	font-size: 1.5em;
+}
+.logout-button:hover {
+	color: white;
+	text-decoration: none;
+}
+
+
+/* GLOBAL */
+.container {
+	background-color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	padding-bottom: 20px;
+}
+
+.container h1 {
+	font-size: 2em;
+}
+
+.container p {
+	font-size: 1em;
+}
+
+.container .main-image {
+	width: 800px;
+}
+
+/*.container a {
+	text-decoration: underline;
+	color: #f6f6f6;
+}*/
+
+footer {
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+	padding-top: 30px;
+	font-size: 1em;
+}
+
+footer p, footer a {
+	color: #273135;
+}
+
+footer a:hover {
+	color: #273135;
+}
+
+footer a:visited {
+	color: #273135;
+}
+
+/* HOMEPAGE */
+.cover .button {
+	border: #f6f6f6 dashed 2px;
+	color: #f6f6f6;
+	font-size: 2em;
+	margin-top: 20px;
+	text-decoration: none;
+}
+
+.cover .button:hover {
+	border: white dashed 2px;
+	color: white;
+}
+
+@media (max-width: 600px) {
+	.container .main-image {
+    	width: 100%;
+  	}
+  	.cover .button {
+  		font-size: 1em;
+  	}
+}
+
+/* SIGNUP / LOGIN PAGE */
+
+.form-container {
+	width: 100%;
+}
+
+.page-form {
+	max-width: 500px;
+	margin: 0 auto;
+	float: none;
+}
+
+.page-form input[type=submit] {
+	width: 100%;
+	border: #f6f6f6 dashed 2px;
+	color: #f6f6f6;
+	font-size: 1.5em;
+	background-color: transparent;
+	outline: 0 !important;
+}
+
+.page-form input[type=submit]:hover {
+	border: white dashed 2px;
+	color: white;
+}
+
+@media (max-width: 600px) {
+  	.page-form input[type=submit] {
+  		font-size: 1em;
+  	}
+}
+
+/* DASHBOARD */
+
+table, th, td {
+    border: 1px solid gray !important;
+}
+
+hr {
+	border-color: gray;
+}
+
+.car-title p {
+	padding: 10px;
+	background-color: #273135;
+	color: white;
+	font-size: 2em;
+}
+
+.car-title a{
+	color: white;
+}
+
+.car-info p {
+	padding: 10px;
+	background-color: #fa7252;
+	color: white;
+	font-size: 1.5em;
+}
+
+.car-title .fa-car {
+	font-size: 1em;
+}
+
+.show-car .fa-cog {
+	color: #273135;
+	font-size: 0.8em;
+}
+.show-car .fa-cog:hover {
+	color: black;
+}
+.show-car .fa-cog:focus, .show-car .fa-cog:active {
+	outline: 0 !important;
+}
+
+.car-info .fa-calculator {
+	font-size: 1em;
+}
+
+.add-car, .add-item, .edit-item-button {
+	color: black;
+	background-color: transparent;
+	border: #273135 dashed 1px;
+	text-decoration: none;
+}
+.add-car:hover, .add-item:hover, .edit-item-button:hover {
+	color: black;
+	border: black dashed 1px;
+}
+.add-car:focus, .add-item:focus, .edit-item-button:focus, .edit-car:focus {
+	outline: none;
+}
+
+.edit-item .fa-cog {
+	color: #68a0a5;
+	font-size: 1em;
+}
+.edit-item .fa-cog:hover {
+	color: black;
+}
+
+/*.row a {
+	color: #273135;
+	border: #273135 dashed 1px;
+	text-decoration: none;
+}
+
+.row a:hover{
+	color: black;
+	border: black dashed 1px;
+}*/
