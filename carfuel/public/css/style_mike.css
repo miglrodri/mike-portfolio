@@ -62,10 +62,6 @@ body {
 	font-size: 2em;
 }
 
-.container p {
-	font-size: 1em;
-}
-
 .container .main-image {
 	width: 600px;
 }
@@ -80,6 +76,7 @@ footer {
 	font-weight: lighter;
 	padding-top: 30px;
 	font-size: 1em;
+    margin-bottom: 15px;
 }
 
 footer p, footer a {
@@ -108,13 +105,17 @@ footer a:visited {
 	color: white;
 }
 
-@media (max-width: 600px) {
+.cover .info-text {
+    font-size: 1.3em;   
+}
+
+@media (max-width: 700px) {
 	.container .main-image {
     	width: 100%;
   	}
-  	.cover .button {
+  	/*.cover .button {
   		font-size: 1em;
-  	}
+  	}*/
 }
 
 /* SIGNUP / LOGIN PAGE */
