@@ -1267,3 +1267,263 @@ INFO - 2015-04-02 22:27:54 --> File loaded: C:\wamp\www\portfolio\carfuel\applic
 INFO - 2015-04-02 22:27:54 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/templates/footer.php
 INFO - 2015-04-02 22:27:54 --> Final output sent to browser
 DEBUG - 2015-04-02 22:27:54 --> Total execution time: 0.1545
+INFO - 2015-04-02 22:37:51 --> Config Class Initialized
+INFO - 2015-04-02 22:37:51 --> Hooks Class Initialized
+DEBUG - 2015-04-02 22:37:51 --> UTF-8 Support Enabled
+INFO - 2015-04-02 22:37:51 --> Utf8 Class Initialized
+INFO - 2015-04-02 22:37:51 --> URI Class Initialized
+INFO - 2015-04-02 22:37:51 --> Router Class Initialized
+INFO - 2015-04-02 22:37:51 --> Output Class Initialized
+INFO - 2015-04-02 22:37:51 --> Security Class Initialized
+DEBUG - 2015-04-02 22:37:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-04-02 22:37:51 --> Input Class Initialized
+INFO - 2015-04-02 22:37:51 --> Language Class Initialized
+INFO - 2015-04-02 22:37:51 --> Loader Class Initialized
+INFO - 2015-04-02 22:37:51 --> Helper loaded: url_helper
+INFO - 2015-04-02 22:37:51 --> Helper loaded: html_helper
+INFO - 2015-04-02 22:37:51 --> Controller Class Initialized
+INFO - 2015-04-02 22:37:51 --> Database Driver Class Initialized
+INFO - 2015-04-02 22:37:51 --> Session: Class initialized using 'database' driver.
+INFO - 2015-04-02 22:37:51 --> Helper loaded: form_helper
+INFO - 2015-04-02 22:37:51 --> Model Class Initialized
+INFO - 2015-04-02 22:37:51 --> Model Class Initialized
+INFO - 2015-04-02 22:37:51 --> Model Class Initialized
+INFO - 2015-04-02 22:37:51 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/templates/header.php
+INFO - 2015-04-02 22:37:51 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/dashboard.php
+INFO - 2015-04-02 22:37:51 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/templates/footer.php
+INFO - 2015-04-02 22:37:51 --> Final output sent to browser
+DEBUG - 2015-04-02 22:37:51 --> Total execution time: 0.2030
+INFO - 2015-04-02 22:37:54 --> Config Class Initialized
+INFO - 2015-04-02 22:37:54 --> Hooks Class Initialized
+DEBUG - 2015-04-02 22:37:54 --> UTF-8 Support Enabled
+INFO - 2015-04-02 22:37:54 --> Utf8 Class Initialized
+INFO - 2015-04-02 22:37:54 --> URI Class Initialized
+INFO - 2015-04-02 22:37:54 --> Router Class Initialized
+INFO - 2015-04-02 22:37:54 --> Output Class Initialized
+INFO - 2015-04-02 22:37:54 --> Security Class Initialized
+DEBUG - 2015-04-02 22:37:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-04-02 22:37:54 --> Input Class Initialized
+INFO - 2015-04-02 22:37:54 --> Language Class Initialized
+INFO - 2015-04-02 22:37:54 --> Loader Class Initialized
+INFO - 2015-04-02 22:37:54 --> Helper loaded: url_helper
+INFO - 2015-04-02 22:37:54 --> Helper loaded: html_helper
+INFO - 2015-04-02 22:37:54 --> Controller Class Initialized
+INFO - 2015-04-02 22:37:54 --> Model Class Initialized
+INFO - 2015-04-02 22:37:54 --> Model Class Initialized
+INFO - 2015-04-02 22:37:54 --> Database Driver Class Initialized
+INFO - 2015-04-02 22:37:54 --> Session: Class initialized using 'database' driver.
+INFO - 2015-04-02 22:37:54 --> Model Class Initialized
+INFO - 2015-04-02 22:37:54 --> Helper loaded: form_helper
+INFO - 2015-04-02 22:37:54 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/templates/header.php
+INFO - 2015-04-02 22:37:55 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/cars/show.php
+INFO - 2015-04-02 22:37:55 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/templates/footer.php
+INFO - 2015-04-02 22:37:55 --> Final output sent to browser
+DEBUG - 2015-04-02 22:37:55 --> Total execution time: 0.2953
+INFO - 2015-04-02 22:38:54 --> Config Class Initialized
+INFO - 2015-04-02 22:38:54 --> Hooks Class Initialized
+DEBUG - 2015-04-02 22:38:54 --> UTF-8 Support Enabled
+INFO - 2015-04-02 22:38:54 --> Utf8 Class Initialized
+INFO - 2015-04-02 22:38:54 --> URI Class Initialized
+INFO - 2015-04-02 22:38:54 --> Router Class Initialized
+INFO - 2015-04-02 22:38:54 --> Output Class Initialized
+INFO - 2015-04-02 22:38:54 --> Security Class Initialized
+DEBUG - 2015-04-02 22:38:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-04-02 22:38:54 --> Input Class Initialized
+INFO - 2015-04-02 22:38:54 --> Language Class Initialized
+INFO - 2015-04-02 22:38:54 --> Loader Class Initialized
+INFO - 2015-04-02 22:38:54 --> Helper loaded: url_helper
+INFO - 2015-04-02 22:38:54 --> Helper loaded: html_helper
+INFO - 2015-04-02 22:38:54 --> Controller Class Initialized
+INFO - 2015-04-02 22:38:54 --> Model Class Initialized
+INFO - 2015-04-02 22:38:54 --> Model Class Initialized
+INFO - 2015-04-02 22:38:54 --> Database Driver Class Initialized
+INFO - 2015-04-02 22:38:54 --> Session: Class initialized using 'database' driver.
+INFO - 2015-04-02 22:38:54 --> Model Class Initialized
+INFO - 2015-04-02 22:38:54 --> Helper loaded: form_helper
+INFO - 2015-04-02 22:38:54 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/templates/header.php
+INFO - 2015-04-02 22:38:54 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/cars/show.php
+INFO - 2015-04-02 22:38:54 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/templates/footer.php
+INFO - 2015-04-02 22:38:54 --> Final output sent to browser
+DEBUG - 2015-04-02 22:38:54 --> Total execution time: 0.1489
+INFO - 2015-04-02 22:40:22 --> Config Class Initialized
+INFO - 2015-04-02 22:40:22 --> Hooks Class Initialized
+DEBUG - 2015-04-02 22:40:22 --> UTF-8 Support Enabled
+INFO - 2015-04-02 22:40:22 --> Utf8 Class Initialized
+INFO - 2015-04-02 22:40:22 --> URI Class Initialized
+INFO - 2015-04-02 22:40:22 --> Router Class Initialized
+INFO - 2015-04-02 22:40:22 --> Output Class Initialized
+INFO - 2015-04-02 22:40:22 --> Security Class Initialized
+DEBUG - 2015-04-02 22:40:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-04-02 22:40:22 --> Input Class Initialized
+INFO - 2015-04-02 22:40:22 --> Language Class Initialized
+INFO - 2015-04-02 22:40:22 --> Loader Class Initialized
+INFO - 2015-04-02 22:40:22 --> Helper loaded: url_helper
+INFO - 2015-04-02 22:40:22 --> Helper loaded: html_helper
+INFO - 2015-04-02 22:40:22 --> Controller Class Initialized
+INFO - 2015-04-02 22:40:22 --> Model Class Initialized
+INFO - 2015-04-02 22:40:22 --> Model Class Initialized
+INFO - 2015-04-02 22:40:22 --> Database Driver Class Initialized
+INFO - 2015-04-02 22:40:22 --> Session: Class initialized using 'database' driver.
+INFO - 2015-04-02 22:40:22 --> Model Class Initialized
+INFO - 2015-04-02 22:40:22 --> Helper loaded: form_helper
+INFO - 2015-04-02 22:40:22 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/templates/header.php
+INFO - 2015-04-02 22:40:22 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/cars/show.php
+INFO - 2015-04-02 22:40:22 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/templates/footer.php
+INFO - 2015-04-02 22:40:22 --> Final output sent to browser
+DEBUG - 2015-04-02 22:40:22 --> Total execution time: 0.1647
+INFO - 2015-04-02 22:40:22 --> Config Class Initialized
+INFO - 2015-04-02 22:40:22 --> Hooks Class Initialized
+DEBUG - 2015-04-02 22:40:22 --> UTF-8 Support Enabled
+INFO - 2015-04-02 22:40:22 --> Utf8 Class Initialized
+INFO - 2015-04-02 22:40:22 --> URI Class Initialized
+INFO - 2015-04-02 22:40:22 --> Router Class Initialized
+INFO - 2015-04-02 22:40:22 --> Output Class Initialized
+INFO - 2015-04-02 22:40:22 --> Security Class Initialized
+DEBUG - 2015-04-02 22:40:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-04-02 22:40:22 --> Input Class Initialized
+INFO - 2015-04-02 22:40:22 --> Language Class Initialized
+INFO - 2015-04-02 22:40:22 --> Loader Class Initialized
+INFO - 2015-04-02 22:40:22 --> Helper loaded: url_helper
+INFO - 2015-04-02 22:40:22 --> Helper loaded: html_helper
+INFO - 2015-04-02 22:40:22 --> Controller Class Initialized
+INFO - 2015-04-02 22:40:22 --> Model Class Initialized
+INFO - 2015-04-02 22:40:22 --> Model Class Initialized
+INFO - 2015-04-02 22:40:22 --> Database Driver Class Initialized
+INFO - 2015-04-02 22:40:22 --> Session: Class initialized using 'database' driver.
+INFO - 2015-04-02 22:40:22 --> Model Class Initialized
+INFO - 2015-04-02 22:40:22 --> Helper loaded: form_helper
+INFO - 2015-04-02 22:40:22 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/templates/header.php
+INFO - 2015-04-02 22:40:22 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/cars/show.php
+INFO - 2015-04-02 22:40:22 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/templates/footer.php
+INFO - 2015-04-02 22:40:22 --> Final output sent to browser
+DEBUG - 2015-04-02 22:40:22 --> Total execution time: 0.1757
+INFO - 2015-04-02 22:40:35 --> Config Class Initialized
+INFO - 2015-04-02 22:40:35 --> Hooks Class Initialized
+DEBUG - 2015-04-02 22:40:35 --> UTF-8 Support Enabled
+INFO - 2015-04-02 22:40:35 --> Utf8 Class Initialized
+INFO - 2015-04-02 22:40:35 --> URI Class Initialized
+INFO - 2015-04-02 22:40:35 --> Router Class Initialized
+INFO - 2015-04-02 22:40:35 --> Output Class Initialized
+INFO - 2015-04-02 22:40:35 --> Security Class Initialized
+DEBUG - 2015-04-02 22:40:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-04-02 22:40:35 --> Input Class Initialized
+INFO - 2015-04-02 22:40:35 --> Language Class Initialized
+INFO - 2015-04-02 22:40:35 --> Loader Class Initialized
+INFO - 2015-04-02 22:40:35 --> Helper loaded: url_helper
+INFO - 2015-04-02 22:40:35 --> Helper loaded: html_helper
+INFO - 2015-04-02 22:40:35 --> Controller Class Initialized
+INFO - 2015-04-02 22:40:35 --> Model Class Initialized
+INFO - 2015-04-02 22:40:35 --> Model Class Initialized
+INFO - 2015-04-02 22:40:35 --> Database Driver Class Initialized
+INFO - 2015-04-02 22:40:35 --> Session: Class initialized using 'database' driver.
+INFO - 2015-04-02 22:40:35 --> Helper loaded: form_helper
+INFO - 2015-04-02 22:40:35 --> Model Class Initialized
+INFO - 2015-04-02 22:40:35 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/templates/header.php
+INFO - 2015-04-02 22:40:35 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/items/edit.php
+INFO - 2015-04-02 22:40:35 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/templates/footer.php
+INFO - 2015-04-02 22:40:35 --> Final output sent to browser
+DEBUG - 2015-04-02 22:40:35 --> Total execution time: 0.1520
+INFO - 2015-04-02 22:42:18 --> Config Class Initialized
+INFO - 2015-04-02 22:42:18 --> Hooks Class Initialized
+DEBUG - 2015-04-02 22:42:18 --> UTF-8 Support Enabled
+INFO - 2015-04-02 22:42:18 --> Utf8 Class Initialized
+INFO - 2015-04-02 22:42:18 --> URI Class Initialized
+INFO - 2015-04-02 22:42:18 --> Router Class Initialized
+INFO - 2015-04-02 22:42:18 --> Output Class Initialized
+INFO - 2015-04-02 22:42:18 --> Security Class Initialized
+DEBUG - 2015-04-02 22:42:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-04-02 22:42:18 --> Input Class Initialized
+INFO - 2015-04-02 22:42:18 --> Language Class Initialized
+INFO - 2015-04-02 22:42:18 --> Loader Class Initialized
+INFO - 2015-04-02 22:42:18 --> Helper loaded: url_helper
+INFO - 2015-04-02 22:42:18 --> Helper loaded: html_helper
+INFO - 2015-04-02 22:42:18 --> Controller Class Initialized
+INFO - 2015-04-02 22:42:18 --> Model Class Initialized
+INFO - 2015-04-02 22:42:18 --> Model Class Initialized
+INFO - 2015-04-02 22:42:18 --> Database Driver Class Initialized
+INFO - 2015-04-02 22:42:18 --> Session: Class initialized using 'database' driver.
+INFO - 2015-04-02 22:42:18 --> Model Class Initialized
+INFO - 2015-04-02 22:42:18 --> Helper loaded: form_helper
+INFO - 2015-04-02 22:42:18 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/templates/header.php
+INFO - 2015-04-02 22:42:18 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/cars/show.php
+INFO - 2015-04-02 22:42:18 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/templates/footer.php
+INFO - 2015-04-02 22:42:18 --> Final output sent to browser
+DEBUG - 2015-04-02 22:42:18 --> Total execution time: 0.1522
+INFO - 2015-04-02 22:42:34 --> Config Class Initialized
+INFO - 2015-04-02 22:42:34 --> Hooks Class Initialized
+DEBUG - 2015-04-02 22:42:34 --> UTF-8 Support Enabled
+INFO - 2015-04-02 22:42:34 --> Utf8 Class Initialized
+INFO - 2015-04-02 22:42:34 --> URI Class Initialized
+INFO - 2015-04-02 22:42:34 --> Router Class Initialized
+INFO - 2015-04-02 22:42:34 --> Output Class Initialized
+INFO - 2015-04-02 22:42:34 --> Security Class Initialized
+DEBUG - 2015-04-02 22:42:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-04-02 22:42:34 --> Input Class Initialized
+INFO - 2015-04-02 22:42:34 --> Language Class Initialized
+INFO - 2015-04-02 22:42:34 --> Loader Class Initialized
+INFO - 2015-04-02 22:42:34 --> Helper loaded: url_helper
+INFO - 2015-04-02 22:42:34 --> Helper loaded: html_helper
+INFO - 2015-04-02 22:42:34 --> Controller Class Initialized
+INFO - 2015-04-02 22:42:34 --> Model Class Initialized
+INFO - 2015-04-02 22:42:34 --> Model Class Initialized
+INFO - 2015-04-02 22:42:34 --> Database Driver Class Initialized
+INFO - 2015-04-02 22:42:34 --> Session: Class initialized using 'database' driver.
+INFO - 2015-04-02 22:42:34 --> Helper loaded: form_helper
+INFO - 2015-04-02 22:42:34 --> Model Class Initialized
+INFO - 2015-04-02 22:42:34 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/templates/header.php
+INFO - 2015-04-02 22:42:34 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/items/edit.php
+INFO - 2015-04-02 22:42:34 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/templates/footer.php
+INFO - 2015-04-02 22:42:34 --> Final output sent to browser
+DEBUG - 2015-04-02 22:42:34 --> Total execution time: 0.1523
+INFO - 2015-04-02 22:42:39 --> Config Class Initialized
+INFO - 2015-04-02 22:42:39 --> Hooks Class Initialized
+DEBUG - 2015-04-02 22:42:39 --> UTF-8 Support Enabled
+INFO - 2015-04-02 22:42:39 --> Utf8 Class Initialized
+INFO - 2015-04-02 22:42:39 --> URI Class Initialized
+INFO - 2015-04-02 22:42:39 --> Router Class Initialized
+INFO - 2015-04-02 22:42:39 --> Output Class Initialized
+INFO - 2015-04-02 22:42:39 --> Security Class Initialized
+DEBUG - 2015-04-02 22:42:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-04-02 22:42:39 --> Input Class Initialized
+INFO - 2015-04-02 22:42:39 --> Language Class Initialized
+INFO - 2015-04-02 22:42:39 --> Loader Class Initialized
+INFO - 2015-04-02 22:42:39 --> Helper loaded: url_helper
+INFO - 2015-04-02 22:42:39 --> Helper loaded: html_helper
+INFO - 2015-04-02 22:42:39 --> Controller Class Initialized
+INFO - 2015-04-02 22:42:39 --> Model Class Initialized
+INFO - 2015-04-02 22:42:39 --> Model Class Initialized
+INFO - 2015-04-02 22:42:39 --> Database Driver Class Initialized
+INFO - 2015-04-02 22:42:39 --> Session: Class initialized using 'database' driver.
+INFO - 2015-04-02 22:42:39 --> Model Class Initialized
+INFO - 2015-04-02 22:42:39 --> Helper loaded: form_helper
+INFO - 2015-04-02 22:42:39 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/templates/header.php
+INFO - 2015-04-02 22:42:39 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/cars/show.php
+INFO - 2015-04-02 22:42:39 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/templates/footer.php
+INFO - 2015-04-02 22:42:39 --> Final output sent to browser
+DEBUG - 2015-04-02 22:42:39 --> Total execution time: 0.1583
+INFO - 2015-04-02 22:42:50 --> Config Class Initialized
+INFO - 2015-04-02 22:42:50 --> Hooks Class Initialized
+DEBUG - 2015-04-02 22:42:50 --> UTF-8 Support Enabled
+INFO - 2015-04-02 22:42:50 --> Utf8 Class Initialized
+INFO - 2015-04-02 22:42:50 --> URI Class Initialized
+INFO - 2015-04-02 22:42:50 --> Router Class Initialized
+INFO - 2015-04-02 22:42:50 --> Output Class Initialized
+INFO - 2015-04-02 22:42:50 --> Security Class Initialized
+DEBUG - 2015-04-02 22:42:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-04-02 22:42:50 --> Input Class Initialized
+INFO - 2015-04-02 22:42:50 --> Language Class Initialized
+INFO - 2015-04-02 22:42:50 --> Loader Class Initialized
+INFO - 2015-04-02 22:42:50 --> Helper loaded: url_helper
+INFO - 2015-04-02 22:42:50 --> Helper loaded: html_helper
+INFO - 2015-04-02 22:42:50 --> Controller Class Initialized
+INFO - 2015-04-02 22:42:50 --> Model Class Initialized
+INFO - 2015-04-02 22:42:50 --> Model Class Initialized
+INFO - 2015-04-02 22:42:50 --> Database Driver Class Initialized
+INFO - 2015-04-02 22:42:50 --> Session: Class initialized using 'database' driver.
+INFO - 2015-04-02 22:42:50 --> Model Class Initialized
+INFO - 2015-04-02 22:42:50 --> Helper loaded: form_helper
+INFO - 2015-04-02 22:42:50 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/templates/header.php
+INFO - 2015-04-02 22:42:50 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/cars/show.php
+INFO - 2015-04-02 22:42:50 --> File loaded: C:\wamp\www\portfolio\carfuel\application\views\backend/templates/footer.php
+INFO - 2015-04-02 22:42:50 --> Final output sent to browser
+DEBUG - 2015-04-02 22:42:50 --> Total execution time: 0.1666

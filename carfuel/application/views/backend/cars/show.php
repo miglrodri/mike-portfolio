@@ -6,7 +6,7 @@
 
 <!-- modal para editar carro -->
 <div class="modal editcar-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-md">
+  <div class="modal-dialog modal-sm">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -40,13 +40,15 @@
 </div>
 
 
+<div class="row car-entry">
+    <div class="col-sm-12">
 <table class="table table-bordered cars-table">
 	<tr>
 		<td class="col-md-1 center">Editar</td>
-		<td class="col-md-3">Data de abastecimento</td>
-		<td class="col-md-3">Kilometragem (km)</td>
-		<td class="col-md-2">Nr de litros (l)</td>
-		<td class="col-md-3">Valor pago (€)</td>
+		<td class="col-md-3  hidden-xs">Data</td>
+		<td class="col-md-3">Kilometros</td>
+		<td class="col-md-2">Litros</td>
+		<td class="col-md-3">Pago</td>
 	</tr>
 
 	<!-- item information -->
@@ -54,7 +56,7 @@
 
 		<tr>
 			<td class="col-md-1 center"><a class="edit-item" href="<?= site_url() ?>/dashboard/cars/<?= $item['carId'] ?>/item/<?= $item['id'] ?>"> <i class="fa fa-cog"></i></a></td>
-			<td class="col-md-3"><?= $item['date'] ?></td>
+			<td class="col-md-3 hidden-xs"><?= $item['date'] ?></td>
 			<td class="col-md-3"><?= $item['kilometers'] ?> km</td>
 			<td class="col-md-2"><?= $item['liters'] ?> l</td>
 			<td class="col-md-3"><?= $item['price'] ?> €</td>
@@ -64,13 +66,15 @@
 	<!-- enf of item information -->
 
 	<tr>
-		<td class="col-md-1"></td>
+		<td class="col-md-1 hidden-xs"></td>
 		<td class="col-md-3">Totais</td>
 		<td class="col-md-3"><?= $car['total_kilometers']; ?> km</td>
 		<td class="col-md-2"><?= $car['total_liters']; ?> l</td>
 		<td class="col-md-3"><?= $car['total_price']; ?> €</td>
 	</tr>
 </table>
+    </div>
+</div>
 
 <?php else: ?>
 
