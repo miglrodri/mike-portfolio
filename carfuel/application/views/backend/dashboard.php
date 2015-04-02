@@ -19,23 +19,27 @@
 	</div>
 
 
+    <div class="row car-entry">
+        <div class="col-sm-12">
 	<table class="table table-bordered cars-table">
 		<tr>
-			<td class="col-md-1"></td>
-			<td class="col-md-2">Nr de abastecimentos</td>
-			<td class="col-md-3">Kilometragem (km)</td>
-			<td class="col-md-3">Nr de litros (l)</td>
-			<td class="col-md-3">Valor pago (€)</td>
+			<td class="col-sm-1"></td>
+			<td class="col-sm-2">Registos</td>
+			<td class="col-sm-3 hidden-xs">Kilometros</td>
+			<td class="col-sm-3 hidden-xs">Litros</td>
+			<td class="col-sm-3 hidden-xs">Pago</td>
 		</tr>
 
 		<tr>
-			<td class="col-md-1">Totais</td>
-			<td class="col-md-2"><?= count($car['items']); ?></td>
-			<td class="col-md-3"><?= $car['total_kilometers']; ?> km</td>
-			<td class="col-md-3"><?= $car['total_liters']; ?> l</td>
-			<td class="col-md-3"><?= $car['total_price']; ?> €</td>
+			<td class="col-sm-1">Total</td>
+			<td class="col-sm-2"><?= count($car['items']); ?></td>
+			<td class="col-sm-3 hidden-xs"><?= $car['total_kilometers']; ?> km</td>
+			<td class="col-sm-3 hidden-xs"><?= $car['total_liters']; ?> l</td>
+			<td class="col-sm-3 hidden-xs"><?= $car['total_price']; ?> €</td>
 		</tr>
 	</table>
+	    </div>
+	</div>
 
 	<?php else: ?>
 
