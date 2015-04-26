@@ -1,0 +1,385 @@
+/* reset css */
+
+
+/* mike css */
+html,
+body {
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: black;
+    z-index: -50;
+}
+
+body {
+    width: 100%;
+    border: 0;
+}
+/* HEADER / BIO */
+
+div.inline {
+    float: left;
+}
+
+div.pinline {
+    float: left;
+}
+
+.clearBoth {
+    clear: both;
+}
+
+header {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
+
+#header-wrapper {
+    height: 500px;
+    padding: 100px 0 0 100px;
+}
+
+#hello-message {
+    width: 600px;
+    padding-top: 70px;
+    padding-left: 70px;
+}
+
+#hello-message h1,
+h2 {
+    margin: 0 0 0 0;
+    padding: 2px 5px 2px 5px;
+    background-color: rgba(255, 255, 255, 0.95);
+    /*background-color: white;*/
+    color: #363831;
+    display: inline-block;
+}
+#hello-message h1 {
+    font-size: 3em;
+}
+#hello-message h2 {
+    font-size: 2.5em;
+}
+
+.strong {
+    font-size: 1.2em;
+}
+
+#profile-image {
+    width: 300px;
+    height: 300px;
+    background-image: url("profile_picture.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.95;
+    z-index: -1;
+}
+
+.wrapper {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+/* PROJECTS */
+
+#projects {
+    background-color: #e7e7e7;
+    padding-bottom: 30px;
+}
+
+#projects-wrapper {
+}
+
+#projects h3 {
+    margin: 0;
+    padding: 30px 0 15px 0;
+    color: #363831;
+    text-transform: uppercase;
+}
+
+.project {
+    height: 320px;
+    width: 250px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    background-color: #1db3e6;
+    text-align: center;
+}
+
+.project a {
+    color: #e7e7e7;
+}
+.project a:hover {
+    text-decoration: underline;
+}
+
+.project-image {
+    height: 250px;
+}
+
+.project-image img {
+    width: 100%;
+}
+
+.project-button {
+    height: 70px;
+    line-height: 70px;
+    vertical-align: middle;
+    background-color: white;
+    color: #363831;
+    font-size: 2em;
+}
+.project-button a {
+    color: #363831;
+}
+.project-button a:hover {
+    background-color: #363831;
+    color: white;
+}
+.project-button a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+
+/* CONTACT */
+
+#contact {
+    /*background-color: #f7e030;*/
+    background-color: #1db3e6;
+    padding-bottom: 30px;
+}
+
+#contact h3 {
+    margin: 0;
+    padding: 30px 0 15px 0;
+    color: #363831;
+    text-transform: uppercase;
+}
+
+ul.input-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+textarea, input[type="email"] {
+    display: block;
+    margin: 0 0 10px 0;
+    width: 100%;
+    font-size: 1em;
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+    background-color: #1db3e6;
+}
+
+textarea:focus, input[type="email"]:focus {
+    outline: none;
+}
+
+.style-1 textarea, .style-1 input[type="email"] {
+    padding: 10px;
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s;
+    color: white;
+}
+.style-1 textarea:focus,
+    .style-1 textarea.focus,
+    .style-1 input[type="email"]:focus,
+    .style-1 input[type="email"].focus {
+    border: solid 1px #707070;
+    box-shadow: 0 0 5px 1px #969696;
+}
+
+.submit-button input{
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.submit-button {
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    background-color:#e7e7e7;
+    color: #363831;
+    font-size: 1em;
+}
+.submit-button input:hover {
+    background-color: #1a9711;
+    color: white;
+}
+
+.submit-button .fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+/* do not group these rules */
+*::-webkit-input-placeholder {
+    color: white;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: white;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: white;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: white;
+}
+
+.warning {
+    background-color: #FF6666;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: inline-block;
+    color: white;
+}
+
+.success {
+    background-color: #00B200;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: inline-block;
+    color: white;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 15px 0 15px 0;
+    background-color: white;
+    color: #363831;
+}
+.bgvideo {
+    min-height:100%;
+}
+
+.video-container {
+    height:500px;
+    overflow: hidden;
+    background-image: url("background_image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -25;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1150px) {
+    
+    div.inline {
+        float: none;
+    }
+    
+    #header-wrapper {
+        height: 350px;
+        width:100%;
+        padding: 50px 0 0 40px;
+    }
+    
+    .video-container {
+        height: 350px;
+    }
+    
+    .bgvideo {
+        display: none;
+    }
+    
+    #hello-message {
+        width: 100%;
+    }
+    
+    #hello-message h2{
+        display:none;
+    }
+    
+    #profile-image {
+        margin-top: 20px;
+        width: 170px;
+        height: 170px;
+    }
+    
+    .wrapper {
+        width: 100%;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    
+    .project {
+        width: 200px;
+        height: 270px;
+    }
+    
+    .project-image {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .project-button {
+        width: 200px;
+        height: 70px;
+        line-height: 70px;
+        font-size: 1.5em;
+    }
+    
+    #hello-message {
+        padding: 0;
+    }
+    
+}
+
+@media (max-width: 850px) {
+    .project {
+        width: 100%;
+        height: 70px;
+    }
+    
+    .project-image {
+        display: none;
+    }
+    
+    .project-button {
+        width: 100%;
+        height: 70px;
+        line-height: 70px;
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 730px) {
+   #hello-message .last-name{
+        display: none;
+    }
+    
+    #profile-image {
+    }
+    
+    #header-wrapper {
+        padding: 30px 0 0 40px;
+        height: 300px;
+    }
+    
+    .video-container {
+        height: 300px;
+    }
+}
+#hello-message a {
+    color: black;
+}
