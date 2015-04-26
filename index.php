@@ -37,12 +37,18 @@
 
     <div class="video-container">
     <!---->
-        <video autoplay loop muted class="bgvideo" id="bgvideo">
+    <?php $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
+        if(stripos($ua,'android') !== false) {
+            //echo "your message";
+        } else{   ?>    
+           <video autoplay loop muted class="bgvideo" id="bgvideo">
             <source src="assets/background_video.mp4" type="video/mp4">
-            <!--<source src="assets/background_video.ogg" type="video/ogg">-->
             <source src="assets/background_video.webm" type="video/webm">
+            <source src="assets/background_video.ogg" type="video/ogg">
         </video>
     <!---->
+    
+    <?php } ?>
     </div>
     <header>
         <div id="header-wrapper" class="wrapper clearfix">
