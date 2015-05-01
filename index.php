@@ -65,21 +65,22 @@
     <section id="projects">
         <div id="projects-wrapper" class="wrapper clearfix">
             <h3>Some projects</h3>
+            
+            <div class="project pinline">
+                <div class="project-image">
+                    <a href="/"><img src="assets/miguel_portfolio.png" alt="website"></a>
+                </div>
+                <div class="project-button">
+                    <a href="/" class="fill-div">THIS PAGE</a>        
+                </div>
+            </div>
+            
             <div class="project pinline">
                 <div class="project-image">
                     <a href="/carfuel" target="_blank" ><img src="assets/carfuel2.png" alt="website"></a>
                 </div>
                 <div class="project-button">
                     <a href="/carfuel" target="_blank" class="fill-div">CARFUEL</a>        
-                </div>
-            </div>
-            
-            <div class="project pinline">
-                <div class="project-image">
-                    
-                </div>
-                <div class="project-button">
-                    <a href="#" class="fill-div">TBA</a>        
                 </div>
             </div>
             
@@ -95,52 +96,35 @@
             
         </div>
     </section>
+    
+    <!--<section id="skills">
+    	<div class="wrapper">
+        	<h3>Skills</h3>
+            <div class="skill">
+            	<p>responsive design</p>
+            </div>
+            <div class="skill">
+            	<p>php for web</p>
+            </div>
+            <div class="skill">
+            	<p>jquery with ajax</p>
+            </div>
+            <div class="skill">
+            	<p>server environment</p>
+            </div>
+        </div>
+    </section>-->
 
     <section id="contact">
         <a name="contact"></a>
         <div class="wrapper">
             <h3>Contact me</h3>
             
-            <?php if (!empty($_POST["message"])) {
-                    if ($_POST["message"] == 'empty_email') { ?>
-            <p class="warning"><i class="fa fa-exclamation-triangle"></i> Error: Email can't be empty!</p>
-                <?php } elseif ($_POST["message"] == 'empty_message') { ?>
-                <p class="warning"><i class="fa fa-exclamation-triangle"></i> Error: Message can't be empty!</p>
-                <?php } else { ?>
-                <p class="success"><i class="fa fa-thumbs-up"></i> Message sent! (demo)</p>
-                <p class="success"><i class="fa fa-envelope-o"></i> Mail me at migl.rodri@gmail.com</p>
-                <?php } ?>
-            <?php } ?>
-            <form action="sendmail.php" method="POST">
-            <ul class="input-list style-1 clearfix">
-                <li>
-                    <input id="email" type="email" name="email" placeholder="YOUR EMAIL">
-                </li>
-                <li>
-                    <textarea id="message" name="message" placeholder="MESSAGE" cols="30" rows="5"></textarea>
-                </li>
-            </ul>
-            
-            
-            <?php if (!empty($_POST["message"])) {
-                        if ($_POST["message"] == 'success') { ?>
-            <div class="submit-button">
-                <input disabled class="fill-div" type="submit" value="MESSAGE SENT">
-            </div>
-            </form>
-            <?php } elseif ($_POST["message"] != 'success') { ?>
+            <form action="/" method="POST">
                 <div class="submit-button">
-                    <input class="fill-div" type="submit" value="SEND MESSAGE (demo)">
+                    <input class="fill-div" type="submit" value="CLICK HERE TO SEE MY EMAIL">
                 </div>
-                </form>
-            <?php }
-            
-            } else { ?>
-            <div class="submit-button">
-                <input class="fill-div" type="submit" value="SEND MESSAGE (demo)">
-            </div>
             </form>
-            <?php }?>
             
         </div>
     </section>
@@ -151,6 +135,23 @@
         </div>
     </footer>
 
+	<!-- jQuery -->
+	<script src="assets/jquery-1.11.2.min.js"></script>
+    
+    <!-- mike script -->
+    <script>
+		$( document ).ready(function() {
+			$( ".submit-button input" ).click(function( event ) {
+				event.preventDefault();
+				
+					$( ".submit-button" ).hide();
+					$( "#contact h3" ).after("<p class=\"success\"><i class=\"fa fa-envelope-o\"></i> Mail me at migl.rodri@gmail.com</p>");
+					
+				
+			});
+		});
+    </script>
+    
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 

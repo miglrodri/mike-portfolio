@@ -13,6 +13,11 @@ body {
     width: 100%;
     border: 0;
 }
+
+.hidden {
+	display: none;	
+}
+
 /* HEADER / BIO */
 
 div.inline {
@@ -215,7 +220,7 @@ textarea:focus, input[type="email"]:focus {
     font-size: 1em;
 }
 .submit-button input:hover {
-    background-color: #1a9711;
+    background-color: #363831;
     color: white;
 }
 
@@ -252,11 +257,13 @@ textarea:focus, input[type="email"]:focus {
 }
 
 .success {
-    background-color: #00B200;
+    /*background-color: #00B200;*/
+	background-color: white;
+	margin: 0;
     border-radius: 5px;
     padding: 5px 10px;
     display: inline-block;
-    color: white;
+    color: #363831;
 }
 
 /* FOOTER */
